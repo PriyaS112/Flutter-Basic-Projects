@@ -74,7 +74,7 @@ class DrumMachine extends StatelessWidget {
             child: Row(
               children: [
                 Expanded(
-                  child: buildTextButton(Colors.red, 'how'),
+                  child: buildTextButton(Colors.red, 'clap'),
                 ),
                 Expanded(
                   child: buildTextButton(Colors.lightGreenAccent, 'sample-3s'),

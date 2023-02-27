@@ -1,14 +1,17 @@
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 
 class AustriaFlag extends StatelessWidget {
   static String routeName = '/austria';
 
+  const AustriaFlag({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Austria Flag'),
+        title: const Text('Austria Flag'),
       ),
       body: Center(
         child: Stack(
@@ -16,7 +19,7 @@ class AustriaFlag extends StatelessWidget {
             Container(
               height: 200,
               width: 300,
-              color: Color(0xffdc0000),
+              color: const Color(0xffdc0000),
             ),
             Positioned(
               top: 66.6,
@@ -37,11 +40,13 @@ class AustriaFlag extends StatelessWidget {
 class BelgiumFlag extends StatelessWidget {
   static String routeName = '/belgium';
 
+  const BelgiumFlag({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Belgium Flag'),
+        title: const Text('Belgium Flag'),
       ),
       body: Center(
         child: Stack(
@@ -49,14 +54,14 @@ class BelgiumFlag extends StatelessWidget {
             Container(
               height: 200,
               width: 300,
-              color: Color(0xffef3340),
+              color: const Color(0xffef3340),
             ),
             Positioned(
               left: 100,
               child: Container(
                 height: 200,
                 width: 100,
-                color: Color(0xfffdda25),
+                color: const Color(0xfffdda25),
               ),
             ),
             Positioned(
@@ -64,7 +69,7 @@ class BelgiumFlag extends StatelessWidget {
               child: Container(
                 height: 200,
                 width: 100,
-                color: Color(0xff000000),
+                color: const Color(0xff000000),
               ),
             )
           ],
@@ -78,11 +83,13 @@ class BelgiumFlag extends StatelessWidget {
 class FranceFlag extends StatelessWidget {
   static String routeName = '/france';
 
+  const FranceFlag({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('France Flag'),
+        title: const Text('France Flag'),
       ),
       body: Center(
         child: Stack(
@@ -90,7 +97,7 @@ class FranceFlag extends StatelessWidget {
             Container(
               height: 200,
               width: 300,
-              color: Color(0xffed2939),
+              color: const Color(0xffed2939),
             ),
             Positioned(
               left: 100,
@@ -105,7 +112,7 @@ class FranceFlag extends StatelessWidget {
               child: Container(
                 height: 200,
                 width: 100,
-                color: Color(0xff002395),
+                color: const Color(0xff002395),
               ),
             )
           ],
@@ -119,11 +126,13 @@ class FranceFlag extends StatelessWidget {
 class JapanFlag extends StatelessWidget {
   static String routeName = '/japan';
 
+  const JapanFlag({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Japan Flag'),
+        title: const Text('Japan Flag'),
       ),
       body: Center(
         child: Stack(
@@ -133,7 +142,7 @@ class JapanFlag extends StatelessWidget {
               width: 300,
               color: Colors.white,
             ),
-            Positioned(
+            const Positioned(
               left: 87.5,
               top: 35,
               child: Icon(FontAwesomeIcons.solidCircle, color: Color(0xffbc002d), size: 125, ),
@@ -149,11 +158,13 @@ class JapanFlag extends StatelessWidget {
 class SwitzerlandFlag extends StatelessWidget {
   static String routeName = '/switzerland';
 
+  const SwitzerlandFlag({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Switzerland Flag'),
+        title: const Text('Switzerland Flag'),
       ),
       body: Center(
         child: Stack(
@@ -163,7 +174,7 @@ class SwitzerlandFlag extends StatelessWidget {
               width: 300,
               color: Color(0xffff0000),
             ),
-            Positioned(
+            const Positioned(
               left: 75,
               top: 20,
               child: Icon(FontAwesomeIcons.plus, color: Colors.white, size: 150, ),
@@ -179,11 +190,13 @@ class SwitzerlandFlag extends StatelessWidget {
 class CameroonFlag extends StatelessWidget {
   static String routeName = '/cameroon';
 
+  const CameroonFlag({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Cameroon Flag'),
+        title: const Text('Cameroon Flag'),
       ),
       body: Center(
         child: Stack(
@@ -191,14 +204,14 @@ class CameroonFlag extends StatelessWidget {
             Container(
               height: 200,
               width: 300,
-              color: Color(0xfffcd116),
+              color: const Color(0xfffcd116),
             ),
             Positioned(
               left: 100,
               child: Container(
                 height: 200,
                 width: 100,
-                color: Color(0xffce1126),
+                color: const Color(0xffce1126),
               ),
             ),
             Positioned(
@@ -206,10 +219,10 @@ class CameroonFlag extends StatelessWidget {
               child: Container(
                 height: 200,
                 width: 100,
-                color: Color(0xff007a5e),
+                color: const Color(0xff007a5e),
               ),
             ),
-            Positioned(
+            const Positioned(
               left: 112.5,
               top: 60,
               child: Icon(Icons.star, color: Color(0xfffcd116), size: 75, ),
@@ -225,11 +238,13 @@ class CameroonFlag extends StatelessWidget {
 class PanamaFlag extends StatelessWidget {
   static String routeName = '/panama';
 
+  const PanamaFlag({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Panama Flag'),
+        title: const Text('Panama Flag'),
       ),
       body: Center(
         child: Stack(
@@ -245,7 +260,7 @@ class PanamaFlag extends StatelessWidget {
               child: Container(
                 height: 100,
                 width: 150,
-                color: Color(0xff072357),
+                color: const Color(0xff072357),
               ),
             ),
             Positioned(
@@ -254,15 +269,15 @@ class PanamaFlag extends StatelessWidget {
               child: Container(
                 height: 100,
                 width: 150,
-                color: Color(0xffda121a),
+                color: const Color(0xffda121a),
               ),
             ),
-            Positioned(
+            const Positioned(
               left: 45,
               top: 20,
               child: Icon(Icons.star, color: Color(0xfff072357), size: 60, ),
             ),
-            Positioned(
+            const Positioned(
               right: 45,
               bottom: 20,
               child: Icon(Icons.star, color: Color(0xffda121a), size: 60, ),
